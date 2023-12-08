@@ -21,6 +21,7 @@ body{
     /* background-color: #28282d; */
     background-color: var(--cor-laranja); /*sayury*/
     height: 100%;
+    transition: background-color 0.3s ease;
 }
 
 .container{
@@ -31,16 +32,12 @@ body{
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    color: #fff;
+    color: var(--cor-branca);
 }
 
 a{
     text-decoration: none;
-    color: #ffffff;
-}
-
-.degrade{
-    background:#e57200;
+    color: var(--cor-branca);
 }
 
 /* ESTILO DO HEADER */
@@ -54,6 +51,7 @@ header img{
     max-width: 150px;
     margin-bottom: 11px;
     border-radius: 50%;  
+    cursor: pointer;
 }
 
 header h1{
@@ -91,7 +89,13 @@ a.link button{
     color: var(--cor-cinza); /*Sayury*/
     transition: .2s;
     border: 2px solid var(--cor-cinza); /*Sayury*/
-    background-color: var(--cor-branca); /*SAyury*/
+}
+.fundo_botao{
+    background-color: var(--cor-branca);  /*Sayury*/
+}
+
+.degrade{
+    background:#e57200;
 }
 
 a.link i{
@@ -122,4 +126,17 @@ footer a.btn-footer{
     transition: .2s;
     /* border: 1px solid var(--cor-cinza); */
     border: 2px solid var(--cor-cinza);
+}
+
+.modo-noturno {
+    background-color: var(--cor-cinza);
+    color: var(--cor-branca);
+}
+
+.modo-noturno a.link i {
+    color: white; /* Altera a cor do ícone no modo noturno */
+}
+
+.modo-noturno  .corLetra{
+    color: var(--cor-branca);
 }
