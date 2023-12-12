@@ -15,7 +15,7 @@
     height: 180px;
     border-radius: 50%;
     background: radial-gradient(circle, rgba(248, 248, 179, 0.137) 0%, rgba(240, 240, 227, 0.068) 80%);
-    animation: pulse 8s ease-in-out infinite; /* Animação para o efeito de pulsação */
+    animation: pulse 5s ease-in-out infinite; /* Animação para o efeito de pulsação */
     top: -20px; /* Ajuste a posição da luz pulsante conforme necessário */
     left: -25px; /* Ajuste a posição da luz pulsante conforme necessário */
     z-index: -1; /* Coloca a luz pulsante atrás da lâmpada */
